@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --darkpink : #dd127b;
+}
+.darkpink{
+    background-color: var(--darkpink);
+}
+
+/* Universal Css Start */
+.fs-13{font-size: 13px;}
+.font-weight-400{font-weight: 400;}
+.text-darkpink{color: #dd127b;}
+.bg-lightblue{background-color: #1CABF3;}
+/* Universal Css End */
+
+/* Header Section Start */
+.top-head .left a:hover{
+    transition: all 0.2s;
+    color: #0000ff !important;
+}
+.top-head .right a:hover{
+    transition: all 0.2s;
+    color: #0000ff !important;
+}
+/* Header Section End */
+
+/* Navbar Section Start */
+.navbar-brand img{
+    transition: 0.2s linear;
+}
+.navbar-brand img:hover{
+    transform: scale(1.05);
+    transition: 0.2s linear;
+}
+/* Navbar Section End */
+
+/* Hero Section Start */
+.carousel-caption button{
+    width: 115px;
+    height: 40px;
+    border-radius: 50px;
+}
+.carousel-caption button:hover{
+    transition: all 0.2s;
+    background-color: #dd127b;
+}
+/* Hero Section End */
