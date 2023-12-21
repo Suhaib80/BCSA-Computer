@@ -15,16 +15,22 @@
 .font-weight-400{font-weight: 400;}
 .text-darkpink{color: #dd127b;}
 .bg-lightblue{background-color: #1CABF3;}
+.text-primary2{color: #0093dd;}
+
+.left-35{left: -35%;}
+.bottom-140{bottom: 140px;}
+
+.fs-17{font-size: 17px;}
 /* Universal Css End */
 
 /* Header Section Start */
 .top-head .left a:hover{
     transition: all 0.2s;
-    color: #0000ff !important;
+    color: #0093dd !important;
 }
 .top-head .right a:hover{
     transition: all 0.2s;
-    color: #0000ff !important;
+    color: #0093dd !important;
 }
 /* Header Section End */
 
@@ -35,6 +41,20 @@
 .navbar-brand img:hover{
     transform: scale(1.05);
     transition: 0.2s linear;
+}
+nav ul li{
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: #2e2828 !important;
+}
+nav ul li a:hover{
+    background-color: #fff !important;
+    transition: all 0.2s;
+    color: #dd127b !important;
+}
+nav ul .dropdown:hover .dropdown-menu{
+    display: block;
 }
 /* Navbar Section End */
 
@@ -48,4 +68,19 @@
     transition: all 0.2s;
     background-color: #dd127b;
 }
+.carousel-indicators button{
+    width: 10px;
+    border-radius: 50%;
+    height: 10px !important;
+    background-color: #dd127b !important;
+}
 /* Hero Section End */
+
+/* About Us Section Start */
+.about-us .box1{
+    width: 300px;
+    height: 65px;
+    border-radius: 15px;
+    box-shadow: 1px 6px 35px #9b7979;
+}
+/* About Us Section End */
