@@ -12,15 +12,22 @@
 
 /* Universal Css Start */
 .fs-13{font-size: 13px;}
+.fs-17{font-size: 17px;}
+.fs-25{font-size: 25px;}
 .font-weight-400{font-weight: 400;}
+
 .text-darkpink{color: #dd127b;}
-.bg-lightblue{background-color: #1CABF3;}
 .text-primary2{color: #0093dd;}
+
+
+.bg-lightblue{background-color: #1CABF3;}
+.bg-light-white{background-color: #e2e2e2;}
 
 .left-35{left: -35%;}
 .bottom-140{bottom: 140px;}
 
-.fs-17{font-size: 17px;}
+.ms-62{margin-left: 62px;}
+
 /* Universal Css End */
 
 /* Header Section Start */
@@ -84,3 +91,65 @@ nav ul .dropdown:hover .dropdown-menu{
     box-shadow: 1px 6px 35px #9b7979;
 }
 /* About Us Section End */
+
+/* Running Courses Section Start */
+.runing-course a:hover{
+    transition: all 0.2s;
+    color: #dd127b !important;
+}
+.runing-course img:hover{
+    cursor: pointer;
+}
+.runing-course .boxe{
+    width: 22rem;
+}
+/* Running Courses Section End */
+
+/* Help Section Start */
+.help .card{
+    border-top: 4px solid #0093dd;
+    border-bottom: 4px solid #0093dd;
+}
+.help ul li a .fa-location-dot{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #c0a2a2;
+}
+.help form label{
+    display: none;
+}
+.help form input,
+.help form select{
+    width: 251px;
+    border-radius: 20px;
+    border: 1px solid #c0a2a2;
+}
+.help form textarea{
+    border-radius: 20px;
+    border: 1px solid #c0a2a2;
+}
+.help form button{
+    width: 251px;
+    height: 50px;
+    border-radius: 10px;
+}
+.help form button:hover{
+    transition: all 0.2s;
+    background-color: #000000 !important;
+}
+/* Help Section End */
+
+/* Footer Section Start */
+footer{
+    border-bottom: 3px solid #c0a2a2;
+}
+footer .social li a:hover{
+    transition: all 0.2s;
+    color: #dd127b !important;
+}
+footer .qlink li a:hover{
+    transition: all 0.2s;
+    color: #dd127b !important;
+}
+/* Footer Section End */
