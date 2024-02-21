@@ -14,14 +14,16 @@
 .fs-13{font-size: 13px;}
 .fs-14{font-size: 14px;}
 .fs-17{font-size: 17px;}
+.fs-20{font-size: 20px;}
 .fs-25{font-size: 25px;}
 .font-weight-400{font-weight: 400;}
 
 .text-darkpink{color: #dd127b;}
 .text-primary2{color: #0093dd;}
-
+.text-orangered{color: #ff4500;}
 
 .bg-lightblue{background-color: #1CABF3;}
+.bg-orangered{background-color: #ff4500;}
 .bg-light-white{background-color: #e2e2e2;}
 
 .bottom-140{bottom: 140px;}
@@ -32,6 +34,10 @@
 .left-45{left: 45%;}
 .left-49{left: 49%;}
 .left-35{left: -35%;}
+
+.h-35{height: 35px;}
+
+.w-860{width: 860px;}
 
 /* Universal Css End */
 
@@ -194,5 +200,24 @@ footer .qlink li a:hover{
     text-align: justify;
 }
 /* Normas & Regulation Section End */
+
+/* Franchises Enquiry Section Start */
+
+/* Enquiry Form Section Start */
+.form-group.required .control-label:after {
+    content:"*";
+    color:#ff0000;
+  }
+/* Enquiry Form Section End */
+
+/* Franchises Enquiry Section End */
+
+/* Apply for Franchises Section Start */
+
+/* Applicatin Form Section Started */
+
+/* Applicatin Form Section End */
+
+/* Apply for Franchises Section End */
 
 /* normas css end */
